@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: django_project_dock
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/manage.py
